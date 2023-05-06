@@ -9,6 +9,7 @@
     --primary-button-background-color: #f4f4fd;
     --icon-color: #8e8f99;
     --color: currentColor;
+    --transition-dur-timing-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
   }
   
@@ -38,7 +39,8 @@
   
   .container {
     width: 1158px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 15px 0 15px;
   }
   
@@ -118,9 +120,25 @@
   
   .logo {
     font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4d5ae5;
+
   }
   
+  .navi {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+
+
   .navi-list-item {
     display: block;
     color: var(--secondary-text-color);
@@ -130,6 +148,7 @@
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color var(--transition-dur-timing-func);
   }
   
   .navi-list-item:hover,
@@ -137,6 +156,8 @@
     color: #404bbf;
   }
   
+
+
   .contacts {
     font-style: normal;
   }
@@ -147,13 +168,30 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color var(--transition-dur-timing-func);
   }
   
   .contacts-search:hover,
   .contacts-search:focus {
     color: #404bbf;
   }
-  
+
+  .studio-underline::after {
+    content: "";
+    display: inline-block;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+
+
+
+
   .section-main {
    max-width: 1440px;
    height: 600px; 
