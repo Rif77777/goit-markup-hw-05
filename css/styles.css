@@ -153,6 +153,9 @@
     font-style: normal;
   }
   
+  .contacts-list-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
    
   .contacts-search .link {
     font-weight: 400;
@@ -160,7 +163,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
   }
   
   .contacts-search:hover,
@@ -393,6 +396,7 @@
     gap: 24px;
   }
   
+  
   .customers-list-link {
     display: flex;
     justify-content: center;
@@ -402,8 +406,8 @@
     border: 1px solid var(--icon-color);
     border-radius: 4px;
     color: var(--icon-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
   }
   
   .customers-list-link:hover,
@@ -603,6 +607,7 @@
   }
   
   .navi-list {
+    position: relative;
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -625,6 +630,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
   
   .contacts-search:hover,
@@ -722,7 +728,10 @@
     margin: 0 auto;
     gap: 24px;
     margin-bottom: 72px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
   
   .button-nav {
