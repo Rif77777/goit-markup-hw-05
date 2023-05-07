@@ -836,10 +836,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .project-item:hover,
-  .project-item:focus .overlay {
+  .project-item:hover .overlay {
     transform: translate(0, 0);
   }
 
 
-  
