@@ -700,7 +700,7 @@
 
   .portfolio-underline::after {
     content:"";
-    display: inline-block;
+    display: block;
     width: 66px;
     height: 4px;
     background: #404bbf;
