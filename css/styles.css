@@ -710,7 +710,7 @@
   .portfolio-underline::after {
     content:"";
     position: absolute;
-    display: block;
+    
     width: 66px;
     height: 4px;
     background: #404bbf;
