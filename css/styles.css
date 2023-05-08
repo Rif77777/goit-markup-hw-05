@@ -131,7 +131,7 @@
   .navi-list-item {
     position: relative;
     display: block;
-    color: #404bbf;
+    color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -846,5 +846,7 @@
   .project-item:hover .overlay {
     transform: translate(0, 0);
   }
-
+  .project-item:focus .overlay {
+    transform: translate(0, 0);
+  }
 
