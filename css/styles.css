@@ -707,7 +707,7 @@
 
 
 
-  .portfolio-underline::after {
+   .link .portfolio-underline::after {
     content:"";
     position: absolute;
     display: block;
