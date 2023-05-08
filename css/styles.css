@@ -844,7 +844,7 @@
   }
   
   
-  .project-link:hover,
+  .project-link:hover .overlay,
   .project-link:focus .overlay {
     transform: translate(0, 0);
   }
