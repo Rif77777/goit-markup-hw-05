@@ -131,7 +131,7 @@
   .navi-list-item {
     position: relative;
     display: block;
-    color:  #2E2F42;
+    color: #404bbf;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -144,7 +144,7 @@
   
   .navi-list-item:hover,
   .navi-list-item:focus {
-    color: #404bbf;
+    color: #2E2F42;
   }
   
 
@@ -843,10 +843,11 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .project-item:hover .overlay {
-    transform: translate(0, 0);
-  }
   .project-item:focus .overlay {
-    transform: translateY(0, 0);
+    transform: translate(0);
   }
 
+  .project-item:hover .overlay {
+    transform: translate(0);
+  }
+  
