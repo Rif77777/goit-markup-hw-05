@@ -847,6 +847,6 @@
     transform: translate(0, 0);
   }
   .project-item:focus .overlay {
-    transform: translate(0, 0);
+    transform: translateY(0, 0);
   }
 
