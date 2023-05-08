@@ -144,7 +144,7 @@
   
   .navi-list-item:hover,
   .navi-list-item:focus {
-    color: #2E2F42;
+   color: #2E2F42;
   }
   
 
@@ -624,7 +624,7 @@
   
   .navi-list:hover,
   .navi-list:focus {
-    color: #2E2F42;
+  color: #2E2F42;
   }
   
   .contacts {
@@ -843,11 +843,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .project-item:focus .overlay {
+  {
     transform: translate(0);
   }
 
-  .project-item:hover .overlay {
-    transform: translate(0);
+  .project-item:hover .overlay,
+  .project-item:focus .overlay {
+    transform: translate(0,0);
   }
   
