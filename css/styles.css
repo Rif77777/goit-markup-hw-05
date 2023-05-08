@@ -715,7 +715,7 @@
 
 
 
-  .portfolio-underline::after {
+  .underline-portfolio::after {
     content:"";
     position:absolute;
     left: 0;
