@@ -172,10 +172,9 @@
   }
 
 
-  .studio {
-    color: #404bbf;
-  }
-
+.active {
+  color: #404bbf; 
+}
 
 
   .studio-underline::after {
